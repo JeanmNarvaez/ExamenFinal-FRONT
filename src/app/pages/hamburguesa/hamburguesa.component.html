@@ -1,0 +1,42 @@
+
+<head> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300;1,400&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<app-header></app-header>
+
+<div class="top-right">
+    <app-buscador></app-buscador>
+  </div>
+
+<div class="card-container">
+    <!-- Card 1 -->
+    <app-cartahumburguesa 
+      [burger1]="{ image: 'https://images.ricardocuisine.com/services/recipes/5500.jpg' }"
+      owner1="Jean Manuel"
+      burgerName1="Tocino Y Huevo Pizza"
+      rating1="5"
+      [burger2]="{ image: 'https://mccormick.widen.net/content/ufuxobl3aq/jpeg/Franks_Photo_Spicy_Grilled_Chicken_Cheeseburger_with_the_Works_Horizontal_2000x1125_180321.jpg?w=2000&h=1125&keep=c&crop=yes&quality=80&x.app=portals' }"
+      owner2="Juan Andres"
+      burgerName2="Pizza Lite"
+      rating2="4.5"
+      [burger3]="{ image: 'https://realfood.tesco.com/media/images/1400x919DrumsFlatsButtermilkChickenBurger-6832405a-2c63-4ef7-93ba-e92b56848f6a-0-1400x919.jpg' }"
+     owner3="Owner3 Name"
+     burgerName3="Burger Name 3"
+     rating3="3.5"
+     [burger4]="{ image: 'https://www.unileverfoodsolutions.com.au/dam/global-ufs/mcos/ANZ/calcmenu/recipes/AU-recipes/fish-&-other-seafood-dishes/crispy-fish-burger-with-jalapeno-tartare-sauce/main-header.jpg' }"
+     owner4="Owner4 Name"
+     burgerName4="Burger Name 4"
+     rating4="4"
+     [burger5]="{ image: 'https://res.cloudinary.com/hksqkdlah/image/upload/43859-sfs-maple-bacon-burger-216.jpg' }"
+     owner5="Owner5 Name"
+     burgerName5="Burger Name 5"
+     rating5="4.5"
+     [burger6]="{ image: 'https://images.kosher.com/details.slide/g/o/Goldstein%2C_Sara._Cheesy_Perfect_Burger_crop%281%29.jpg' }"
+     owner6="Owner6 Name"
+     burgerName6="Burger Name 6"
+     rating6="5"
+  
+    ></app-cartahumburguesa>
+    <app-btnlogin></app-btnlogin>
+<app-btnnsignup></app-btnnsignup>

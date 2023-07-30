@@ -1,0 +1,21 @@
+.sign-button {
+    background-color: #aa440000;
+  
+    color: #ffffff;
+    border: 2px solid #aa4400;
+    border-radius: 5px;
+    padding: 9px 40px; /* updated padding */
+    font-size: 20px; /* updated font-size */
+    cursor: pointer;
+    
+    /* position the button in the top-right corner */
+    position: absolute;
+    top: 30px;
+    right: 330px;
+    transform: translateX(50%);
+}
+    
+  
+.sign-button:hover {
+    background-color: #5a585a;
+}

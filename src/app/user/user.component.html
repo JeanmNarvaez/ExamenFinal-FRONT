@@ -1,0 +1,26 @@
+<label for="name">ID:</label>
+<input type="text" id="id" name="id" [(ngModel)]="id">
+
+<label for="name">Username:</label>
+<input type="text" id="name" name="name" [(ngModel)]="name">
+
+<label for="name">Email:</label>
+<input type="text" id="email" name="email" [(ngModel)]="email">
+
+<button (click)="createUser()">Save</button>
+<button (click)="updateUser()">Update</button>
+<button (click)="deleteUser()">Delete</button>
+
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor="let user of user">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>       
+
+    </tr>
+</table>

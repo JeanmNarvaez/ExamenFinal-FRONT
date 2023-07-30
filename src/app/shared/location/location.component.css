@@ -1,0 +1,10 @@
+.container {
+    
+    position: absolute; /* set location as absolute */
+    left: 0; /* set location to left of container */
+    width: 100%; /* set location width to 100% of container */
+    background-color: #8a818a; 
+    text-align: center; 
+    padding-top: 1%;
+    
+  }

@@ -1,0 +1,67 @@
+/* Adjust the styles for the card-container and card elements */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+    border: 1px solid #908e8e79;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+  
+  /* Add styles for cartahumburguesas-specific elements */
+  .burger-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .burger-owner {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .burger-name {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .burger-card-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .star-icon {
+    color: #fceea2;
+    font-size: 24px;
+    margin-right: 4px;
+    flex-shrink: 0;
+  }
+  
+  .star-icon.filled {
+    color: #f9a825;
+  }
+  
+  .title {
+    margin-bottom: 440px;
+  }
+  

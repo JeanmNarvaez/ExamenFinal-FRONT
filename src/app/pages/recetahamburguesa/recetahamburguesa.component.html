@@ -1,0 +1,58 @@
+<div class="dish-name"> <!-- Top section -->
+    <h1>{{ dishName }}</h1>
+  </div>
+  
+  <div class="review-section"> <!-- Middle section -->
+    <div class="review">
+      <div class="profile-info">
+        <img class="pfp" src="https://cdn1.vectorstock.com/i/1000x1000/16/00/happy-man-face-cartoon-vector-14471600.jpg" alt="Profile Picture">
+        <h2>{{ personName }}</h2>
+      </div>
+      <div class="star-rating">
+        <!-- Add your star rating component here -->
+      </div>
+    </div>
+    <div class="final-product">
+      <img src="https://images.ricardocuisine.com/services/recipes/5500.jpg" alt="Final Product">
+      <hr>
+    </div>
+  </div>
+  
+  <div class="ingredients-section"> <!-- Ingredients section -->
+    <h2>Ingredientes</h2>
+    <div class="ingredient" *ngFor="let ingredient of ingredients">
+      <input type="checkbox" id="{{ ingredient }}" [checked]="ingredient.isChecked">
+      <label for="{{ ingredient }}">{{ ingredient.name }}</label>
+    </div>
+    <hr>
+  </div>
+  
+  <div class="preparation-section"> <!-- Preparation section -->
+    <h2>Preparacion</h2>
+    <div *ngFor="let step of preparationSteps">
+      <div class="step">
+        <ng-container *ngIf="!step.isImage; else imageTemplate">
+          <p>{{ step.description }}</p>
+        </ng-container>
+        <ng-template #imageTemplate>
+          <img [src]="step.description" alt="Step Image">
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Add the subtitle "Comentarios" with orange lines -->
+  <hr class="subtitle-line">
+  <h2 class="subtitle">Comentario</h2>
+  
+  <div class="review">
+    <div class="review-section"> <!-- Middle section -->
+      <div class="review">
+        <div class="star-rating">
+          <!-- Add your star rating component here -->
+        </div>
+        <textarea class="comment-box" placeholder="Leave a comment..."></textarea>
+      </div>
+    </div>
+  </div>
+  

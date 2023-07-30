@@ -1,0 +1,149 @@
+<div class="card-container">
+    <!-- Breakfast Card 1 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="desayuno1.image" alt="Breakfast Image" class="breakfast-image">
+      <div class="card-details">
+        <div class="breakfast-type">{{ type1 }}</div>
+        <div class="breakfast-name">{{ desayunoName1 }}</div>
+        <div class="breakfast-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating1 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Breakfast Card 2 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="desayuno2.image" alt="Breakfast Image" class="breakfast-image">
+      <div class="card-details">
+        <div class="breakfast-type">{{ type2 }}</div>
+        <div class="breakfast-name">{{ desayunoName2 }}</div>
+        <div class="breakfast-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating2 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Breakfast Card 3 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="desayuno3.image" alt="Breakfast Image" class="breakfast-image">
+      <div class="card-details">
+        <div class="breakfast-type">{{ type3 }}</div>
+        <div class="breakfast-name">{{ desayunoName3 }}</div>
+        <div class="breakfast-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating3 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Breakfast Card 4 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="desayuno4.image" alt="Breakfast Image" class="breakfast-image">
+      <div class="card-details">
+        <div class="breakfast-type">{{ type4 }}</div>
+        <div class="breakfast-name">{{ desayunoName4 }}</div>
+        <div class="breakfast-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating4 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Breakfast Card 5 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="desayuno5.image" alt="Breakfast Image" class="breakfast-image">
+      <div class="card-details">
+        <div class="breakfast-type">{{ type5 }}</div>
+        <div class="breakfast-name">{{ desayunoName5 }}</div>
+        <div class="breakfast-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating5 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Breakfast Card 6 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="desayuno6.image" alt="Breakfast Image" class="breakfast-image">
+      <div class="card-details">
+        <div class="breakfast-type">{{ type6 }}</div>
+        <div class="breakfast-name">{{ desayunoName6 }}</div>
+        <div class="breakfast-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating6 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Breakfast Card 7 -->
+  <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+    <img [src]="desayuno7.image" alt="Breakfast Image" class="breakfast-image">
+    <div class="card-details">
+      <div class="breakfast-type">{{ type7 }}</div>
+      <div class="breakfast-name">{{ desayunoName7 }}</div>
+      <div class="breakfast-card-footer">
+        <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating7 }">&#9733;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breakfast Card 8 -->
+  <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+    <img [src]="desayuno8.image" alt="Breakfast Image" class="breakfast-image">
+    <div class="card-details">
+      <div class="breakfast-type">{{ type8 }}</div>
+      <div class="breakfast-name">{{ desayunoName8 }}</div>
+      <div class="breakfast-card-footer">
+        <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating8 }">&#9733;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breakfast Card 9 -->
+  <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+    <img [src]="desayuno9.image" alt="Breakfast Image" class="breakfast-image">
+    <div class="card-details">
+      <div class="breakfast-type">{{ type9 }}</div>
+      <div class="breakfast-name">{{ desayunoName9 }}</div>
+      <div class="breakfast-card-footer">
+        <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating9 }">&#9733;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breakfast Card 10 -->
+  <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+    <img [src]="desayuno10.image" alt="Breakfast Image" class="breakfast-image">
+    <div class="card-details">
+      <div class="breakfast-type">{{ type10 }}</div>
+      <div class="breakfast-name">{{ desayunoName10 }}</div>
+      <div class="breakfast-card-footer">
+        <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating10 }">&#9733;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breakfast Card 11 -->
+  <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+    <img [src]="desayuno11.image" alt="Breakfast Image" class="breakfast-image">
+    <div class="card-details">
+      <div class="breakfast-type">{{ type11 }}</div>
+      <div class="breakfast-name">{{ desayunoName11 }}</div>
+      <div class="breakfast-card-footer">
+        <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating11 }">&#9733;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breakfast Card 12 -->
+  <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+    <img [src]="desayuno12.image" alt="Breakfast Image" class="breakfast-image">
+    <div class="card-details">
+      <div class="breakfast-type">{{ type12 }}</div>
+      <div class="breakfast-name">{{ desayunoName12 }}</div>
+      <div class="breakfast-card-footer">
+        <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating12 }">&#9733;</span>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    <!-- Add more Breakfast Cards as needed (up to Breakfast Card 10) -->
+ 
+  

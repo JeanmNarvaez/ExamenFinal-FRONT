@@ -1,0 +1,42 @@
+
+<head> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300;1,400&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<app-header></app-header>
+
+<div class="top-right">
+    <app-buscador></app-buscador>
+  </div>
+<div class="card-container">
+  <!-- Card 1 -->
+  <app-cartacarne 
+    [carne1]="{ image: 'https://www.southernliving.com/thmb/sQ3jAjFAP-SPt_upe-Im4rxMKrQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/oven-baked-baby-back-ribs-beauty-332_preview-34579f7f15ed4548ae3bb5b2048aab60.jpg' }"
+    type1="Chicken"
+    carneName1="Tocino Y Huevo Pizza"
+    rating1="5"
+    [carne2]="{ image: 'https://hips.hearstapps.com/hmg-prod/images/delish-202206-steakaupoivresoup-141-1664287560.jpg?crop=1.00xw:0.752xh;0,0.144xh&resize=1200:*' }"
+    type2="Beef"
+    carneName2="Pizza Lite"
+    rating2="4.5"
+    [carne3]="{ image: 'https://static01.nyt.com/images/2019/12/13/dining/mc-beef-wellington/mc-beef-wellington-articleLarge-v2.jpg' }"
+    type3="Chicken"
+    carneName3="Burger Name 3"
+    rating3="3.5"
+    [carne4]="{ image: 'https://media-cdn2.greatbritishchefs.com/media/tplngied/img62101.whqc_768x512q80.jpg' }"
+    type4="Fish"
+    carneName4="Burger Name 4"
+    rating4="4"
+    [carne5]="{ image: 'https://osojimix.com/wp-content/uploads/2022/04/Carne-al-jugo-con-papas-cocidas-Pa%CC%81gina-500x375.jpg' }"
+    type5="Beef"
+    carneName5="Burger Name 5"
+    rating5="4.5"
+    [carne6]="{ image: 'https://cafedelites.com/wp-content/uploads/2019/08/Garlic-Butter-Basted-Steakhouse-Steaks-IMAGE-42.jpg' }"
+    type6="Beef"
+    carneName6="Burger Name 6"
+    rating6="5"
+  ></app-cartacarne>
+</div>
+
+<app-btnlogin></app-btnlogin>
+<app-btnnsignup></app-btnnsignup>

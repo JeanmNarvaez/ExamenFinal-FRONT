@@ -1,0 +1,92 @@
+/* Add your custom CSS styles here */
+
+.dish-name {
+  text-align: center;
+  font-size: 32px;
+}
+
+.review-section,
+.ingredients-section,
+.preparation-section,
+.comentarios-section { /* Add the comentarios-section class here */
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.star-rating {
+  /* Add your star rating CSS styles here */
+}
+
+.comment-box {
+  width: 100%;
+  resize: vertical;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.final-product img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.ingredient {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.ingredient label {
+  margin-left: 12px;
+}
+
+.step img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.step p {
+  /* Add styles for the small sentence */
+  font-size: 20px; /* Increase the font size as needed */
+  color: black; /* Set the text color to black */
+}
+
+.step img,
+.step p {
+  /* Add styles for the lines */
+  padding: 8px;
+}
+
+.ingredients-section h2,
+.preparation-section h2,
+.comentarios-section h2 { /* Add the comentarios-section class here */
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Add styles for the lines underneath Ingredientes, Preparacion, and Comentarios */
+.ingredients-section hr,
+.preparation-section hr,
+.comentarios-section .subtitle-line { /* Add the comentarios-section class here */
+  border-color: #d2601a;
+  height: 2px;
+  margin: 20px 0;
+  background-color: #d2601a;
+}
+
+/* Add styles for the Comentarios subtitle */
+.subtitle {
+  color: #d2601a;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Add styles for the profile picture (PFP) */
+.pfp {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+  border-radius: 50%; /* Make it round */
+  margin-right: 10px; /* Add some spacing between the PFP and the name */
+}

@@ -1,0 +1,161 @@
+/* Main Wrapper */
+#wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Login Box */
+  .login-box {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles */
+  .form-horizontal .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Center Logo */
+  .login-box .db {
+    text-align: center;
+  }
+  
+  /* Input Styles */
+  .form-control {
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+  
+  /* Remember Me Checkbox */
+  .checkbox {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  /* Forgot Password Link */
+  #to-recover {
+    color: #333;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Social Buttons */
+  .social {
+    margin-top: 20px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social a:hover {
+    background-color: #324d80;
+  }
+  
+  /* Sign Up Link */
+  .text-center {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .text-primary {
+    color: #1e88e5;
+    font-weight: bold;
+  }
+  /* Login Button */
+.btn-info {
+    background-color: #d2601a;
+    border-color: #d2601a;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .btn-info:hover {
+    background-color: #e49c6f;
+    border-color: #e49c6f;
+  }
+  
+  .btn-info::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .btn-info:hover::before {
+    transform: scale(1);
+  }
+  
+  /* Reset Button */
+  .btn-primary {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #64b5f6;
+    border-color: #64b5f6;
+  }
+  
+  .btn-primary::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .btn-primary:hover::before {
+    transform: scale(1);
+  }
+  

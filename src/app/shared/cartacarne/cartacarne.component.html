@@ -1,0 +1,77 @@
+<div class="card-container">
+    <!-- Card 1 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="carne1.image" alt="Meat Burger Image" class="meat-image">
+      <div class="card-details">
+        <div class="meat-type">{{ type1 }}</div>
+        <div class="meat-name">{{ carneName1 }}</div>
+        <div class="meat-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating1 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="carne2.image" alt="Meat Burger Image" class="meat-image">
+      <div class="card-details">
+        <div class="meat-type">{{ type2 }}</div>
+        <div class="meat-name">{{ carneName2 }}</div>
+        <div class="meat-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating2 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="carne3.image" alt="Meat Burger Image" class="meat-image">
+      <div class="card-details">
+        <div class="meat-type">{{ type3 }}</div>
+        <div class="meat-name">{{ carneName3 }}</div>
+        <div class="meat-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating3 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="carne4.image" alt="Meat Burger Image" class="meat-image">
+      <div class="card-details">
+        <div class="meat-type">{{ type4 }}</div>
+        <div class="meat-name">{{ carneName4 }}</div>
+        <div class="meat-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating4 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 5 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="carne5.image" alt="Meat Burger Image" class="meat-image">
+      <div class="card-details">
+        <div class="meat-type">{{ type5 }}</div>
+        <div class="meat-name">{{ carneName5 }}</div>
+        <div class="meat-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating5 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 6 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="carne6.image" alt="Meat Burger Image" class="meat-image">
+      <div class="card-details">
+        <div class="meat-type">{{ type6 }}</div>
+        <div class="meat-name">{{ carneName6 }}</div>
+        <div class="meat-card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating6 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 7 (and so on) -->
+    <!-- Add more cards for meat burgers as needed -->
+  </div>
+  

@@ -1,0 +1,159 @@
+.titulo{
+    border-bottom:solid 5px rgb(0, 0,0);
+    text-align: center;
+    font-size: 80px;
+    line-height: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+  
+}
+
+.header{
+    width: 100%;
+    background-color: #2E292E;
+    border-bottom:solid 4px #d2601a;
+}
+
+.menu{
+    margin: 00px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 6rem;
+}
+
+.logo2{
+    height: 4rem;
+}
+
+.menu li{
+    font-weight: 1000;
+    padding: 4px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* adjust to your desired value */
+  }
+  
+
+  .show {
+    display: show;
+ 
+  }
+
+.linea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(183, 21, 21, 0.5);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    max-width: 100px;
+    margin-top: 20px; /* Adjust the value to move the logo down */
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu a {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white; /* Change the color to white */
+    position: relative; /* Add relative position */
+  }
+
+  .menu a i {
+    margin-right: 5px;
+  }
+
+  .menu a::after { /* Add pseudo-element for the underline */
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust the value to position the line appropriately */
+    width: 100%;
+    height: 2px;
+    background-color: white; /* Change the color to white */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu a:hover::after { /* Show the underline on hover */
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  /* Add CSS styles for the dropdown menu */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Change the background color of the dropdown */
+    min-width: 150px;
+    padding: 10px;
+    z-index: 1; /* Ensure the dropdown is positioned above other content */
+    border-radius: 10px; /* Add rounded corners to the dropdown */
+    outline: 1px solid #000;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Update the color of the dropdown menu items */
+  .dropdown-content a {
+    color: #2E292E;
+    display: block;
+    padding: 6px 0;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ffffff; /* Change the background color of the dropdown menu item on hover */
+    color: #d2601a; /* Change the color of the dropdown menu item on hover */
+  }
+
+  .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 19px;
+    transform: translate(-120%, 0);
+  }

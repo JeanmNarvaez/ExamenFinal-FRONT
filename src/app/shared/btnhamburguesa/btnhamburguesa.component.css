@@ -1,0 +1,31 @@
+/* btnhamburguesa.component.css */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .hamburguesa-button {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 24px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburguesa-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Emoji style */
+  .hamburguesa-emoji {
+    margin-left: 8px;
+    font-size: 28px;
+  }
+  

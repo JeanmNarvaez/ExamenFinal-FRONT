@@ -1,0 +1,13 @@
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+  
+.redes-sociales a {
+    margin-right: 10px;
+}
+  
+.redes-sociales-icon {
+    height: 50px;
+    width: 50px;
+}

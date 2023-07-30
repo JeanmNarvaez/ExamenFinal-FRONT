@@ -1,0 +1,124 @@
+/* Main Wrapper */
+#wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Login Box */
+  .login-box {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles */
+  .form-horizontal .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Center Logo */
+  .login-box .db {
+    text-align: center;
+  }
+  
+  .login-box .db img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .login-box .db br {
+    display: none;
+  }
+  
+  /* Title and Description */
+  .box-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  
+  .login-box small {
+    font-size: 14px;
+    color: #888;
+    display: block;
+  }
+  
+  /* Input Styles */
+  .form-control {
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+  
+  /* Checkbox Styles */
+ 
+
+  
+  .checkbox input[type="checkbox"]:checked + label:before {
+    border-color: #1e88e5;
+    background-color: #1e88e5;
+  }
+  
+ 
+  
+  /* Sign Up Button */
+/* Sign Up Button */
+.btn-info {
+    background-color: #d2601a;
+    border-color: #d2601a;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .btn-info:hover {
+    background-color: #e49c6f;
+    border-color: #e49c6f;
+  }
+  
+  .btn-info::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .btn-info:hover::before {
+    transform: scale(1);
+  }
+  
+  
+  /* Sign In Link */
+  .text-center {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .text-info {
+    color: #1e88e5;
+    font-weight: bold;
+  }
+  

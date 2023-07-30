@@ -1,0 +1,74 @@
+<div class="card-container">
+    <!-- Card 1 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="food.image" alt="Food Image" class="food-image">
+      <div class="card-details">
+        <div class="owner-name">{{ owner }}</div>
+        <div class="dish-name">{{ dishName }}</div>
+        <div class="card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="food2.image" alt="Food Image" class="food-image">
+      <div class="card-details">
+        <div class="owner-name">{{ owner2 }}</div>
+        <div class="dish-name">{{ dishName2 }}</div>
+        <div class="card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating2 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="food3.image" alt="Food Image" class="food-image">
+      <div class="card-details">
+        <div class="owner-name">{{ owner3 }}</div>
+        <div class="dish-name">{{ dishName3 }}</div>
+        <div class="card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating3 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="food4.image" alt="Food Image" class="food-image">
+      <div class="card-details">
+        <div class="owner-name">{{ owner4 }}</div>
+        <div class="dish-name">{{ dishName4 }}</div>
+        <div class="card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating4 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 5 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="food5.image" alt="Food Image" class="food-image">
+      <div class="card-details">
+        <div class="owner-name">{{ owner5 }}</div>
+        <div class="dish-name">{{ dishName5 }}</div>
+        <div class="card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating5 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 6 -->
+    <div class="card" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="onClick()">
+      <img [src]="food6.image" alt="Food Image" class="food-image">
+      <div class="card-details">
+        <div class="owner-name">{{ owner6 }}</div>
+        <div class="dish-name">{{ dishName6 }}</div>
+        <div class="card-footer">
+          <span *ngFor="let star of stars" class="star-icon" [ngClass]="{ 'filled': star <= +rating6 }">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,124 @@
+<head> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300;1,400&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<app-header></app-header>
+<div class="top-right">
+    <app-buscador></app-buscador>
+  </div>
+
+    <div class="slideshow">
+        <app-slideshow></app-slideshow>
+    </div>
+
+    <app-btnpizza></app-btnpizza>
+   
+    
+    <div class="card-container">
+        <app-carta 
+        [food]="{ image: 'https://img.taste.com.au/zlE3dmRi/taste/2016/11/eggs-florentine-pizzas-81722-1.jpeg' }"
+        owner="Jean Manuel"
+        dishName="Tocino Y Huevo Pizza"
+        rating="5"
+        [food2]="{ image: 'https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?cs=srgb&dl=pexels-kristina-paukshtite-1146760.jpg&fm=jpg' }"
+        owner2="Juan Andres"
+        dishName2="Pizza Lite"
+        rating2="4.5"
+        [food3]="{ image: 'https://littlespicejar.com/wp-content/uploads/2018/07/Crispy-Chicken-Salad-with-BBQ-Honey-Mustard-Dressing-13-720x540.jpg' }"
+        owner3="Rosangeles Carrion"
+        dishName3="Pizza Salad"
+        rating3="4"
+        [food4]="{ image: 'https://media.istockphoto.com/id/614313140/photo/soft-beef-tacos-with-fries.jpg?b=1&s=612x612&w=0&k=20&c=p2bMjaUUn8nWzxUiYg9dxN3T9Tfev4qSk4iUX0ej2yg=' }"
+        owner4="Pablo Justicia"
+        dishName4="Bacon Cheesy Pizza"
+        rating4="5"
+        [food5]="{ image: 'https://khinskitchen.com/wp-content/uploads/2021/11/spicy-chicken-pasta.jpg' }"
+        owner5="Jean Narvaez"
+        dishName5="Pizza on pizza"
+        rating5="5"
+        [food6]="{ image: 'https://img.delicious.com.au/1ZLuviB9/del/2015/10/passionfruit-cocktail-19087-2.jpg' }"
+        owner6="Nakleh Zeidan"
+        dishName6="NYC Pizza"
+        rating6="5"
+        
+
+        ></app-carta>
+
+        <app-btncarne></app-btncarne>
+        <div class="card-container">
+          <!-- Card 1 -->
+          <app-cartacarne 
+            [carne1]="{ image: 'https://www.southernliving.com/thmb/sQ3jAjFAP-SPt_upe-Im4rxMKrQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/oven-baked-baby-back-ribs-beauty-332_preview-34579f7f15ed4548ae3bb5b2048aab60.jpg' }"
+            type1="Juan Tapia"
+            carneName1="BBQ Glazed Ribs"
+            rating1="5"
+            [carne2]="{ image: 'https://hips.hearstapps.com/hmg-prod/images/delish-202206-steakaupoivresoup-141-1664287560.jpg?crop=1.00xw:0.752xh;0,0.144xh&resize=1200:*' }"
+            type2="Emma Johnson"
+            carneName2="Ramen Beef"
+            rating2="4.5"
+            [carne3]="{ image: 'https://static01.nyt.com/images/2019/12/13/dining/mc-beef-wellington/mc-beef-wellington-articleLarge-v2.jpg' }"
+            type3="Ava Rodriguez"
+            carneName3="beef wellington"
+            rating3="3.5"
+            [carne4]="{ image: 'https://media-cdn2.greatbritishchefs.com/media/tplngied/img62101.whqc_768x512q80.jpg' }"
+            type4="Benjamin Davis"
+            carneName4="Carne al Vino"
+            rating4="4"
+            [carne5]="{ image: 'https://osojimix.com/wp-content/uploads/2022/04/Carne-al-jugo-con-papas-cocidas-Pa%CC%81gina-500x375.jpg' }"
+            type5="Lucas Perez"
+            carneName5="Carne al Jugo"
+            rating5="4.5"
+            [carne6]="{ image: 'https://cafedelites.com/wp-content/uploads/2019/08/Garlic-Butter-Basted-Steakhouse-Steaks-IMAGE-42.jpg' }"
+            type6="Harper Wilson"
+            carneName6="Carne Salteada"
+            rating6="5"
+          ></app-cartacarne>
+        </div>
+        
+        
+
+        <app-btnhamburguesa></app-btnhamburguesa>
+      
+      
+      </div>
+
+      <div class="card-container">
+        <!-- Card 1 -->
+        <app-cartahumburguesa 
+          [burger1]="{ image: 'https://images.ricardocuisine.com/services/recipes/5500.jpg' }"
+          owner1="Jean Manuel"
+          burgerName1="Hamburguesa Aro de Cebolla"
+          rating1="5"
+          [burger2]="{ image: 'https://mccormick.widen.net/content/ufuxobl3aq/jpeg/Franks_Photo_Spicy_Grilled_Chicken_Cheeseburger_with_the_Works_Horizontal_2000x1125_180321.jpg?w=2000&h=1125&keep=c&crop=yes&quality=80&x.app=portals' }"
+          owner2="Juan Andres"
+          burgerName2="Pollo BBQ Burger"
+          rating2="4.5"
+          [burger3]="{ image: 'https://realfood.tesco.com/media/images/1400x919DrumsFlatsButtermilkChickenBurger-6832405a-2c63-4ef7-93ba-e92b56848f6a-0-1400x919.jpg' }"
+         owner3="Andrés Pérez"
+         burgerName3="Hamburguesas Ranchero"
+         rating3="3.5"
+         [burger4]="{ image: 'https://www.unileverfoodsolutions.com.au/dam/global-ufs/mcos/ANZ/calcmenu/recipes/AU-recipes/fish-&-other-seafood-dishes/crispy-fish-burger-with-jalapeno-tartare-sauce/main-header.jpg' }"
+         owner4="Juan Silva"
+         burgerName4="Hambuerguesa de Pescado"
+         rating4="4"
+         [burger5]="{ image: 'https://res.cloudinary.com/hksqkdlah/image/upload/43859-sfs-maple-bacon-burger-216.jpg' }"
+         owner5="Sebastián Jiménez"
+         burgerName5="Wester Burger"
+         rating5="4.5"
+         [burger6]="{ image: 'https://images.kosher.com/details.slide/g/o/Goldstein%2C_Sara._Cheesy_Perfect_Burger_crop%281%29.jpg' }"
+         owner6="Mateo Ramírez"
+         burgerName6="Eastern Burger"
+         rating6="5"
+      
+        ></app-cartahumburguesa>
+
+
+        
+      </div>
+      
+
+<app-location></app-location>
+<app-btnlogin></app-btnlogin>
+<app-btnnsignup></app-btnnsignup>
+
+
